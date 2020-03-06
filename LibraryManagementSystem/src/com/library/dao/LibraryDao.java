@@ -130,7 +130,7 @@ public class LibraryDao {
 				new Object[] { bookName }, new LibraryMapper());
 	}
 
-	
+	//method to delete the book details
 	public void deleteBook(final Integer isbnNo) {
 
 		jdbcTemplate.execute(DELETELIBRARY,
