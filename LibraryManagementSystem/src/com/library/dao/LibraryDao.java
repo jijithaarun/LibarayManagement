@@ -163,7 +163,7 @@ public class LibraryDao {
 						// calling the purchase date
 						String purchaseDate = ft.format(library
 								.getPurchaseDate());
-						//set values
+						//set values to database
 						statement.setString(1, library.getBookTitle());
 						statement.setString(2, library.getAuthorName());
 						statement.setInt(3, library.getQuantity());
